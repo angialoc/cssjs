@@ -1,5 +1,5 @@
-//please contact me giaiphapthuonghieu.org@gmail.com
-//website http://giaiphapthuonghieu.vn or http://faceseo.vn
+
+
 
 (function($) {
     $.fn.linhnguyen = function(options) {        
@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='https://lh3.googleusercontent.com/-Tozbh5PbDjw/V5nzw537QvI/AAAAAAAAA3Q/y67cO0nP1jY93CqSavsDhllgD7Slqt7swCL0B/w346-h216/hinh-nen-mat-trang-trong-dem-80890.jpg' width='500px'/><br/>13 Kỹ thuật đẩy top vượt trội</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='https://3.bp.blogspot.com/-_Za_pBOgd0M/V5wuxJgRWFI/AAAAAAAAA5c/rn2nkd2_v2UcHw2gPJ4R_bl6XXNAKioSgCKgB/w346-h192/ban-dat-quan-12-khu-dan-cu-an-phu-dong-riverside-ban-dat-quan-12-nha-gia-re-an-phu-dong-riverside.jpg' width='500px'/><br/>Giá 14,5 tr/m2 bao VAT - Xây Dựng Tự Do</a>. Đất nền phân lô Quận 12. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
