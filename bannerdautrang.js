@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='https://lh3.googleusercontent.com/-3VeBdf8dRD4/V52EUL98srI/AAAAAAAAA6A/HS_b3SYlHfELT8FpO3eA5ZZO_dhcGIH9ACL0B/w346-h192/ban-dat-quan-12-khu-dan-cu-an-phu-dong-riverside-ban-dat-quan-12-nha-gia-re-an-phu-dong-riverside-Q12.jpg' width='500px'/><br/>Giá 14,5 tr/m2 bao VAT - Xây Dựng Tự Do</a>. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='https://lh3.googleusercontent.com/-3VeBdf8dRD4/V52EUL98srI/AAAAAAAAA6A/HS_b3SYlHfELT8FpO3eA5ZZO_dhcGIH9ACL0B/w346-h192/ban-dat-quan-12-khu-dan-cu-an-phu-dong-riverside-ban-dat-quan-12-nha-gia-re-an-phu-dong-riverside-Q12.jpg' width='500px'/><br/>Giá 14,5 tr/m2 bao VAT - Xây Dựng Tự Do</a> <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
